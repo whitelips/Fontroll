@@ -1,0 +1,841 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AE0E0A92A6C04DA00A5177D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0E0A82A6C04DA00A5177D /* AppDelegate.swift */; };
+		5AE0E0AD2A6C04DA00A5177D /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0AB2A6C04DA00A5177D /* Main.html */; };
+		5AE0E0AF2A6C04DA00A5177D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0AE2A6C04DA00A5177D /* Icon.png */; };
+		5AE0E0B12A6C04DA00A5177D /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0B02A6C04DA00A5177D /* Style.css */; };
+		5AE0E0B32A6C04DA00A5177D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0E0B22A6C04DA00A5177D /* SceneDelegate.swift */; };
+		5AE0E0B52A6C04DA00A5177D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0E0B42A6C04DA00A5177D /* ViewController.swift */; };
+		5AE0E0B82A6C04DA00A5177D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0B62A6C04DA00A5177D /* LaunchScreen.storyboard */; };
+		5AE0E0BB2A6C04DA00A5177D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0B92A6C04DA00A5177D /* Main.storyboard */; };
+		5AE0E0C72A6C04DB00A5177D /* FontrollTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0E0C62A6C04DB00A5177D /* FontrollTests.swift */; };
+		5AE0E0D12A6C04DB00A5177D /* FontrollUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0E0D02A6C04DB00A5177D /* FontrollUITests.swift */; };
+		5AE0E0D32A6C04DB00A5177D /* FontrollUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0E0D22A6C04DB00A5177D /* FontrollUITestsLaunchTests.swift */; };
+		5AE0E0D92A6C04DB00A5177D /* Fontroll Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5AE0E0D82A6C04DB00A5177D /* Fontroll Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5AE0E0DE2A6C04DB00A5177D /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE0E0DD2A6C04DB00A5177D /* SafariWebExtensionHandler.swift */; };
+		5AE0E0E12A6C04DB00A5177D /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0E02A6C04DB00A5177D /* _locales */; };
+		5AE0E0E32A6C04DB00A5177D /* images in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0E22A6C04DB00A5177D /* images */; };
+		5AE0E0E52A6C04DB00A5177D /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0E42A6C04DB00A5177D /* manifest.json */; };
+		5AE0E0E72A6C04DB00A5177D /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0E62A6C04DB00A5177D /* background.js */; };
+		5AE0E0E92A6C04DB00A5177D /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0E82A6C04DB00A5177D /* content.js */; };
+		5AE0E0EB2A6C04DB00A5177D /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0EA2A6C04DB00A5177D /* popup.html */; };
+		5AE0E0ED2A6C04DB00A5177D /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0EC2A6C04DB00A5177D /* popup.css */; };
+		5AE0E0EF2A6C04DB00A5177D /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0EE2A6C04DB00A5177D /* popup.js */; };
+		5AE0E0F12A6C04DB00A5177D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5AE0E0BC2A6C04DB00A5177D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AE0E0C32A6C04DB00A5177D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE0E09D2A6C04DA00A5177D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE0E0A42A6C04DA00A5177D;
+			remoteInfo = Fontroll;
+		};
+		5AE0E0CD2A6C04DB00A5177D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE0E09D2A6C04DA00A5177D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE0E0A42A6C04DA00A5177D;
+			remoteInfo = Fontroll;
+		};
+		5AE0E0DA2A6C04DB00A5177D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AE0E09D2A6C04DA00A5177D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5AE0E0D72A6C04DB00A5177D;
+			remoteInfo = "Fontroll Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5AE0E0F72A6C04DB00A5177D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5AE0E0D92A6C04DB00A5177D /* Fontroll Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5AE0E0A52A6C04DA00A5177D /* Fontroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fontroll.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE0E0A82A6C04DA00A5177D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5AE0E0AC2A6C04DA00A5177D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		5AE0E0AE2A6C04DA00A5177D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		5AE0E0B02A6C04DA00A5177D /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		5AE0E0B22A6C04DA00A5177D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5AE0E0B42A6C04DA00A5177D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5AE0E0B72A6C04DA00A5177D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5AE0E0BA2A6C04DA00A5177D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5AE0E0BC2A6C04DB00A5177D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5AE0E0BD2A6C04DB00A5177D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AE0E0C22A6C04DB00A5177D /* FontrollTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontrollTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE0E0C62A6C04DB00A5177D /* FontrollTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontrollTests.swift; sourceTree = "<group>"; };
+		5AE0E0CC2A6C04DB00A5177D /* FontrollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontrollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE0E0D02A6C04DB00A5177D /* FontrollUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontrollUITests.swift; sourceTree = "<group>"; };
+		5AE0E0D22A6C04DB00A5177D /* FontrollUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontrollUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5AE0E0D82A6C04DB00A5177D /* Fontroll Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Fontroll Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE0E0DD2A6C04DB00A5177D /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		5AE0E0E02A6C04DB00A5177D /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		5AE0E0E22A6C04DB00A5177D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		5AE0E0E42A6C04DB00A5177D /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		5AE0E0E62A6C04DB00A5177D /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		5AE0E0E82A6C04DB00A5177D /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		5AE0E0EA2A6C04DB00A5177D /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		5AE0E0EC2A6C04DB00A5177D /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		5AE0E0EE2A6C04DB00A5177D /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		5AE0E0F02A6C04DB00A5177D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AE0E0A22A6C04DA00A5177D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE0E0BF2A6C04DB00A5177D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE0E0C92A6C04DB00A5177D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE0E0D52A6C04DB00A5177D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AE0E09C2A6C04DA00A5177D = {
+			isa = PBXGroup;
+			children = (
+				5AE0E0A72A6C04DA00A5177D /* Fontroll */,
+				5AE0E0C52A6C04DB00A5177D /* FontrollTests */,
+				5AE0E0CF2A6C04DB00A5177D /* FontrollUITests */,
+				5AE0E0DC2A6C04DB00A5177D /* Fontroll Extension */,
+				5AE0E0A62A6C04DA00A5177D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AE0E0A62A6C04DA00A5177D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AE0E0A52A6C04DA00A5177D /* Fontroll.app */,
+				5AE0E0C22A6C04DB00A5177D /* FontrollTests.xctest */,
+				5AE0E0CC2A6C04DB00A5177D /* FontrollUITests.xctest */,
+				5AE0E0D82A6C04DB00A5177D /* Fontroll Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AE0E0A72A6C04DA00A5177D /* Fontroll */ = {
+			isa = PBXGroup;
+			children = (
+				5AE0E0A82A6C04DA00A5177D /* AppDelegate.swift */,
+				5AE0E0B22A6C04DA00A5177D /* SceneDelegate.swift */,
+				5AE0E0B42A6C04DA00A5177D /* ViewController.swift */,
+				5AE0E0B62A6C04DA00A5177D /* LaunchScreen.storyboard */,
+				5AE0E0B92A6C04DA00A5177D /* Main.storyboard */,
+				5AE0E0BC2A6C04DB00A5177D /* Assets.xcassets */,
+				5AE0E0BD2A6C04DB00A5177D /* Info.plist */,
+				5AE0E0AA2A6C04DA00A5177D /* Resources */,
+			);
+			path = Fontroll;
+			sourceTree = "<group>";
+		};
+		5AE0E0AA2A6C04DA00A5177D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AE0E0AB2A6C04DA00A5177D /* Main.html */,
+				5AE0E0AE2A6C04DA00A5177D /* Icon.png */,
+				5AE0E0B02A6C04DA00A5177D /* Style.css */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5AE0E0C52A6C04DB00A5177D /* FontrollTests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE0E0C62A6C04DB00A5177D /* FontrollTests.swift */,
+			);
+			path = FontrollTests;
+			sourceTree = "<group>";
+		};
+		5AE0E0CF2A6C04DB00A5177D /* FontrollUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5AE0E0D02A6C04DB00A5177D /* FontrollUITests.swift */,
+				5AE0E0D22A6C04DB00A5177D /* FontrollUITestsLaunchTests.swift */,
+			);
+			path = FontrollUITests;
+			sourceTree = "<group>";
+		};
+		5AE0E0DC2A6C04DB00A5177D /* Fontroll Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5AE0E0DD2A6C04DB00A5177D /* SafariWebExtensionHandler.swift */,
+				5AE0E0F02A6C04DB00A5177D /* Info.plist */,
+				5AE0E0DF2A6C04DB00A5177D /* Resources */,
+			);
+			path = "Fontroll Extension";
+			sourceTree = "<group>";
+		};
+		5AE0E0DF2A6C04DB00A5177D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5AE0E0E02A6C04DB00A5177D /* _locales */,
+				5AE0E0E22A6C04DB00A5177D /* images */,
+				5AE0E0E42A6C04DB00A5177D /* manifest.json */,
+				5AE0E0E62A6C04DB00A5177D /* background.js */,
+				5AE0E0E82A6C04DB00A5177D /* content.js */,
+				5AE0E0EA2A6C04DB00A5177D /* popup.html */,
+				5AE0E0EC2A6C04DB00A5177D /* popup.css */,
+				5AE0E0EE2A6C04DB00A5177D /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AE0E0A42A6C04DA00A5177D /* Fontroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE0E0F82A6C04DB00A5177D /* Build configuration list for PBXNativeTarget "Fontroll" */;
+			buildPhases = (
+				5AE0E0A12A6C04DA00A5177D /* Sources */,
+				5AE0E0A22A6C04DA00A5177D /* Frameworks */,
+				5AE0E0A32A6C04DA00A5177D /* Resources */,
+				5AE0E0F72A6C04DB00A5177D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE0E0DB2A6C04DB00A5177D /* PBXTargetDependency */,
+			);
+			name = Fontroll;
+			productName = Fontroll;
+			productReference = 5AE0E0A52A6C04DA00A5177D /* Fontroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5AE0E0C12A6C04DB00A5177D /* FontrollTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE0E0FB2A6C04DB00A5177D /* Build configuration list for PBXNativeTarget "FontrollTests" */;
+			buildPhases = (
+				5AE0E0BE2A6C04DB00A5177D /* Sources */,
+				5AE0E0BF2A6C04DB00A5177D /* Frameworks */,
+				5AE0E0C02A6C04DB00A5177D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE0E0C42A6C04DB00A5177D /* PBXTargetDependency */,
+			);
+			name = FontrollTests;
+			productName = FontrollTests;
+			productReference = 5AE0E0C22A6C04DB00A5177D /* FontrollTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5AE0E0CB2A6C04DB00A5177D /* FontrollUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE0E0FE2A6C04DB00A5177D /* Build configuration list for PBXNativeTarget "FontrollUITests" */;
+			buildPhases = (
+				5AE0E0C82A6C04DB00A5177D /* Sources */,
+				5AE0E0C92A6C04DB00A5177D /* Frameworks */,
+				5AE0E0CA2A6C04DB00A5177D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5AE0E0CE2A6C04DB00A5177D /* PBXTargetDependency */,
+			);
+			name = FontrollUITests;
+			productName = FontrollUITests;
+			productReference = 5AE0E0CC2A6C04DB00A5177D /* FontrollUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5AE0E0D72A6C04DB00A5177D /* Fontroll Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AE0E0F42A6C04DB00A5177D /* Build configuration list for PBXNativeTarget "Fontroll Extension" */;
+			buildPhases = (
+				5AE0E0D42A6C04DB00A5177D /* Sources */,
+				5AE0E0D52A6C04DB00A5177D /* Frameworks */,
+				5AE0E0D62A6C04DB00A5177D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fontroll Extension";
+			productName = "Fontroll Extension";
+			productReference = 5AE0E0D82A6C04DB00A5177D /* Fontroll Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AE0E09D2A6C04DA00A5177D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					5AE0E0A42A6C04DA00A5177D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					5AE0E0C12A6C04DB00A5177D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5AE0E0A42A6C04DA00A5177D;
+					};
+					5AE0E0CB2A6C04DB00A5177D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 5AE0E0A42A6C04DA00A5177D;
+					};
+					5AE0E0D72A6C04DB00A5177D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 5AE0E0A02A6C04DA00A5177D /* Build configuration list for PBXProject "Fontroll" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5AE0E09C2A6C04DA00A5177D;
+			productRefGroup = 5AE0E0A62A6C04DA00A5177D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AE0E0A42A6C04DA00A5177D /* Fontroll */,
+				5AE0E0C12A6C04DB00A5177D /* FontrollTests */,
+				5AE0E0CB2A6C04DB00A5177D /* FontrollUITests */,
+				5AE0E0D72A6C04DB00A5177D /* Fontroll Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AE0E0A32A6C04DA00A5177D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE0E0AF2A6C04DA00A5177D /* Icon.png in Resources */,
+				5AE0E0BB2A6C04DA00A5177D /* Main.storyboard in Resources */,
+				5AE0E0B82A6C04DA00A5177D /* LaunchScreen.storyboard in Resources */,
+				5AE0E0AD2A6C04DA00A5177D /* Main.html in Resources */,
+				5AE0E0F12A6C04DB00A5177D /* Assets.xcassets in Resources */,
+				5AE0E0B12A6C04DA00A5177D /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE0E0C02A6C04DB00A5177D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE0E0CA2A6C04DB00A5177D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE0E0D62A6C04DB00A5177D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE0E0E72A6C04DB00A5177D /* background.js in Resources */,
+				5AE0E0ED2A6C04DB00A5177D /* popup.css in Resources */,
+				5AE0E0EB2A6C04DB00A5177D /* popup.html in Resources */,
+				5AE0E0E32A6C04DB00A5177D /* images in Resources */,
+				5AE0E0E52A6C04DB00A5177D /* manifest.json in Resources */,
+				5AE0E0E12A6C04DB00A5177D /* _locales in Resources */,
+				5AE0E0E92A6C04DB00A5177D /* content.js in Resources */,
+				5AE0E0EF2A6C04DB00A5177D /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AE0E0A12A6C04DA00A5177D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE0E0B52A6C04DA00A5177D /* ViewController.swift in Sources */,
+				5AE0E0A92A6C04DA00A5177D /* AppDelegate.swift in Sources */,
+				5AE0E0B32A6C04DA00A5177D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE0E0BE2A6C04DB00A5177D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE0E0C72A6C04DB00A5177D /* FontrollTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE0E0C82A6C04DB00A5177D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE0E0D32A6C04DB00A5177D /* FontrollUITestsLaunchTests.swift in Sources */,
+				5AE0E0D12A6C04DB00A5177D /* FontrollUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5AE0E0D42A6C04DB00A5177D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AE0E0DE2A6C04DB00A5177D /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AE0E0C42A6C04DB00A5177D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE0E0A42A6C04DA00A5177D /* Fontroll */;
+			targetProxy = 5AE0E0C32A6C04DB00A5177D /* PBXContainerItemProxy */;
+		};
+		5AE0E0CE2A6C04DB00A5177D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE0E0A42A6C04DA00A5177D /* Fontroll */;
+			targetProxy = 5AE0E0CD2A6C04DB00A5177D /* PBXContainerItemProxy */;
+		};
+		5AE0E0DB2A6C04DB00A5177D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5AE0E0D72A6C04DB00A5177D /* Fontroll Extension */;
+			targetProxy = 5AE0E0DA2A6C04DB00A5177D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5AE0E0AB2A6C04DA00A5177D /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE0E0AC2A6C04DA00A5177D /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		5AE0E0B62A6C04DA00A5177D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE0E0B72A6C04DA00A5177D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5AE0E0B92A6C04DA00A5177D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AE0E0BA2A6C04DA00A5177D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AE0E0F22A6C04DB00A5177D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5AE0E0F32A6C04DB00A5177D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AE0E0F52A6C04DB00A5177D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fontroll Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fontroll Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitelips.Fontroll.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AE0E0F62A6C04DB00A5177D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Fontroll Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Fontroll Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitelips.Fontroll.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AE0E0F92A6C04DB00A5177D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fontroll/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fontroll;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitelips.Fontroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AE0E0FA2A6C04DB00A5177D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Fontroll/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Fontroll;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitelips.Fontroll;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5AE0E0FC2A6C04DB00A5177D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitelips.FontrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fontroll.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fontroll";
+			};
+			name = Debug;
+		};
+		5AE0E0FD2A6C04DB00A5177D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitelips.FontrollTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fontroll.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fontroll";
+			};
+			name = Release;
+		};
+		5AE0E0FF2A6C04DB00A5177D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitelips.FontrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fontroll;
+			};
+			name = Debug;
+		};
+		5AE0E1002A6C04DB00A5177D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.whitelips.FontrollUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Fontroll;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AE0E0A02A6C04DA00A5177D /* Build configuration list for PBXProject "Fontroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE0E0F22A6C04DB00A5177D /* Debug */,
+				5AE0E0F32A6C04DB00A5177D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE0E0F42A6C04DB00A5177D /* Build configuration list for PBXNativeTarget "Fontroll Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE0E0F52A6C04DB00A5177D /* Debug */,
+				5AE0E0F62A6C04DB00A5177D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE0E0F82A6C04DB00A5177D /* Build configuration list for PBXNativeTarget "Fontroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE0E0F92A6C04DB00A5177D /* Debug */,
+				5AE0E0FA2A6C04DB00A5177D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE0E0FB2A6C04DB00A5177D /* Build configuration list for PBXNativeTarget "FontrollTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE0E0FC2A6C04DB00A5177D /* Debug */,
+				5AE0E0FD2A6C04DB00A5177D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AE0E0FE2A6C04DB00A5177D /* Build configuration list for PBXNativeTarget "FontrollUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AE0E0FF2A6C04DB00A5177D /* Debug */,
+				5AE0E1002A6C04DB00A5177D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5AE0E09D2A6C04DA00A5177D /* Project object */;
+}
